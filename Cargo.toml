@@ -6,3 +6,4 @@ edition = "2024"
 [dependencies]
 actix-web = "4.11.0"
 serde = {version="*", features=["derive"]}
+tokio = {version="*", features=["macros", "rt-multi-thread"]}
