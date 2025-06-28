@@ -2,8 +2,7 @@ use actix_web::{
     Responder,
     http::StatusCode,
     post,
-    test::status_service,
-    web::{self, Json},
+    web::Json,
 };
 
 use crate::routes::{UserDetails, logging};
